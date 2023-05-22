@@ -4,62 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sabka Shop</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div id="navigation">
-  <div class="topnav" id="myTopnav">
-   <a href="#home" class="active">Home</a>
-   <a href="#cart">Cart</a>
-   <a href="#wishlist">Wishlist</a>
-   <a href="#contact">Contact</a>
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-   </a>
-  </div></div>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#cart">Cart</a>
+      <a href="#wishlist">Wishlist</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
   <main>
     <section class="hero">
       <h1><marquee>Welcome to our online store</marquee></h1>
-      <p><marquee>Get the best deals on the latest products</marquee></p>
+      <p>
+        <marquee>Get the best deals on the latest products</marquee>
+      </p>
       <button href="#first">Shop now</button>
     </section>
-    <section class="products">
-      <h2>Featured Products</h2>
-      <ul>
-        <li>
-          <img id="first" src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/r/k/h/g73-5g-paux0023in-motorola-original-imagngjh7epkhqdg.jpeg?q=70" alt="Product 1">
-          <h3>Product 1</h3>
-          <p>$19.99</p>
-          <button>Add to cart</button>
-        </li>
-        <li>
-          <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/x/x/m/g73-5g-paux0023in-motorola-original-imagngjhg2aagjyy.jpeg?q=70" alt="Product 2">
-          <h3>Product 2</h3>
-          <p>$29.99</p>
-          <button>Add to cart</button>
-        </li>
-        <li>
-          <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/o/x/k/g73-5g-paux0023in-motorola-original-imagngjhhpgd35eg.jpeg?q=70" alt="Product 3">
-          <h3>Product 3</h3>
-          <p>$39.99</p>
-          <button>Add to cart</button>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <script>
-   function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-     x.className += " responsive";
-    } else {
-     x.className = "topnav";
-    }
-   }
-  </script>
-  <footer>
-    <p>&copy; 2023 Shopping Website</p>
-  </footer>
-</body>
-</html>
+    <section class="product">
+      <h2>New Arrivals</h2><hr>
+      <div class="new-arrival">
+        <table>
+          <tr>
+            <td><img src="images/clothes-1.jpg"></td>
+            <td>Relaxed Short Full Sleeve T-Shirt<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+            </tr>
+            <tr>
+              <td><img src="images/clothes-2.jpg"></td>
+              <td>Girl pink embro design top<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+              </tr>
+              <tr>
+                <td><img src="images/clothes-3.jpg"></td>
+                <td> Black Floral Wrap Midi Skirt<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+                </tr>
+                <tr>
+                  <td><img src="images/shirt-1.jpg"></td>
+                  <td>Pure Garment dyed Cotton Shirt<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td><img src="images/jacket-1.jpg"></td>
+                    <td>Men Yarn Fleece Full-Zip Jacket<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+                    </tr>
+                    <tr>
+                      <td><img src="images/jacket-3.jpg"></td>
+                      <td>Mens Winter leather Jacket<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+                      </tr>
+                      <tr>
+                        <td><img src="images/jacket-5.jpg"></td>
+                        <td>Mens Winter Leather Jacket<br> Clothes<br><b>$10.00</b> <del>$12.00</del>
+                        </tr>
+                        <tr>
+                          <td><img src="images/shorts-1.jpg"></td>
+                          <td>Better Basic French Terry Sweatshorts<br>Clothes<br><b>$10.00</b> <del>$12.00</del>
+                          </tr>
+                        </table>
+                      </div>
+                    </section>
+                    <section class="product"></section>
+                    <h2>Trending</h2><hr>
+                    <div class="trending">
+                      <table>
+                        <tr>
+                          <td><img src="images/sports-1.jpg"></td>
+                          <td>Air Trekking Shoes-White<br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                          </tr>
+                          <tr>
+                            <td><img src="images/sports-2.jpg"></td>
+                            <td>Trekking & Running Shoes - black<br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                            </tr>
+                            <tr>
+                              <td><img src="images/sports-3.jpg"></td>
+                              <td> Womens Party Wear Shoes<br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                              </tr>
+                              <tr>
+                                <td><img src="images/sports-6.jpg"></td>
+                                <td>Sports Claw Women's Shoes<br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                                </tr>
+                              </table>
+                              <table>
+                                <tr>
+                                  <td><img src="images/shoe-1.jpg"></td>
+                                  <td>Air Trekking Shoes - white<br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="images/shoe-3.jpg"></td>
+                                    <td>Boot With Suede Detail</h4><br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="images/shoe-2.jpg"></td>
+                                    <td>Men's Leather Formal Wear shoes<br> Shoes<br><b>$10.00</b> <del>$12.00</del>
+                                    </tr>
+                                    <tr>
+                                      <td><img src="images/shoe-1.jpg"></td>
+                                      <td>Casual Men's Brown shoes<br>Shoes<br><b>$10.00</b> <del>$12.00</del>
+                                      </tr>
+                                    </table>
+                                  </div>
+                                </section>
+                              </main>
+                              <script>
+                                function myFunction() {
+                                  var x = document.getElementById("myTopnav");
+                                  if (x.className === "topnav") {
+                                    x.className += " responsive";
+                                  } else {
+                                    x.className = "topnav";
+                                  }
+                                }
+                              </script>
+                              <footer>
+                                <br>
+                                <p>
+                                  &copy; 2023 Shopping Website
+                                </p>
+                              </footer>
+                            </body>
+                          </html>
